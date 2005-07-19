@@ -1,0 +1,16 @@
+name: Win32-Wildcard
+version: 0.01
+abstract: Unfold the wildcards contained in @ARGV automatically
+author: A. U. Thor <a.u.thor@a.galaxy.far.far.away>
+license: perl
+distribution_type: module
+build_requires:
+  Test::More: 0
+  File::Compare: 0
+requires:
+  Exporter: 0
+  File::DosGlob: 0
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.36

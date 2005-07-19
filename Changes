@@ -1,0 +1,6 @@
+Revision history for Perl extension Win32::Wildcard.
+
+0.01  Sun Jul 17 13:54:30 2005
+	- original version; created by h2xs 1.23 with options
+		-X -b 5.6.1 Win32::Wildcard
+

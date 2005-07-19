@@ -1,0 +1,36 @@
+Win32-Wildcard version 0.01
+===========================
+
+This is the README file for the Win32::Wildcard module.
+This module provides a straight-forward interface for processing the wildcards
+used in Win32 command line. The standard File::DosGlob module maked my work
+minimal.
+
+The unfold function globs the pattern appeared in @ARGV and assign the final
+file list back to @ARGV. Every element of @ARGV is treated as single pattern
+and white spaces are reserved.
+
+I think the beauty of this stuff is just its simplicity. There is only one
+sub with no arguments and no return values.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+   File::DosGlob
+   Exporter
+   Test::More
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2005 Agent Zhang
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.

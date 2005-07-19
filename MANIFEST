@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Win32-Wildcard.t
+lib/Win32/Wildcard.pm
